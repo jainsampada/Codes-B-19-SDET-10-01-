@@ -1,0 +1,19 @@
+h1#sty
+{
+	background-color:pink;
+	color:yellow;
+	border-style:dotted
+}
+
+input.st
+{
+	background-color:yellow;
+}
+#newset
+{
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}

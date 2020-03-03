@@ -1,0 +1,10 @@
+package Basic_Codes;
+
+public class ByName {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

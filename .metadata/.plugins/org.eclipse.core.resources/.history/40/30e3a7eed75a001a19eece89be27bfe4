@@ -1,0 +1,20 @@
+package com.OrangeLive.TestCases;
+
+import org.testng.annotations.BeforeGroups;
+import org.testng.annotations.BeforeSuite;
+
+import com.TestBase.basedemo;
+import com.orangehrm.pages.LoginPage;
+
+public class LoginTest extends basedemo{
+	LoginPage log;
+public LoginTest()
+{
+	super();
+}
+@BeforeSuite
+public void LaunchUrl()
+{
+	initialize();
+}
+}

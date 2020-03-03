@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15532" started-at="2020-02-17T11:06:23Z" finished-at="2020-02-17T11:06:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15532" started-at="2020-02-17T11:06:23Z" finished-at="2020-02-17T11:06:38Z">
+      <class name="DemoHRM.HomeTest">
+        <test-method status="PASS" signature="checkAdmin()[pri:0, instance:DemoHRM.HomeTest@23a2f9]" name="checkAdmin" duration-ms="2616" started-at="2020-02-17T11:06:34Z" finished-at="2020-02-17T11:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdmin -->
+        <test-method status="PASS" signature="JobOpen()[pri:0, instance:DemoHRM.HomeTest@23a2f9]" name="JobOpen" duration-ms="1572" started-at="2020-02-17T11:06:37Z" finished-at="2020-02-17T11:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobOpen -->
+      </class> <!-- DemoHRM.HomeTest -->
+      <class name="DemoHRM.LoginTest">
+        <test-method status="PASS" signature="DriverInfo()[pri:0, instance:DemoHRM.LoginTest@1604f19]" name="DriverInfo" is-config="true" duration-ms="12343" started-at="2020-02-17T11:06:10Z" finished-at="2020-02-17T11:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverInfo -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:DemoHRM.LoginTest@1604f19]" name="Login" duration-ms="11188" started-at="2020-02-17T11:06:23Z" finished-at="2020-02-17T11:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="CheckTitle()[pri:0, instance:DemoHRM.LoginTest@1604f19]" name="CheckTitle" duration-ms="31" started-at="2020-02-17T11:06:34Z" finished-at="2020-02-17T11:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTitle -->
+        <test-method status="PASS" signature="Close_Browser()[pri:0, instance:DemoHRM.LoginTest@1604f19]" name="Close_Browser" is-config="true" duration-ms="0" started-at="2020-02-17T11:06:38Z" finished-at="2020-02-17T11:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- DemoHRM.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

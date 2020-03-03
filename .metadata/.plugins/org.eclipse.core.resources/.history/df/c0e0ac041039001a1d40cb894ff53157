@@ -1,0 +1,34 @@
+package Basic_Codes;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ByClass {
+	String path;
+	public void CheckbyClass()
+	{
+	path=System.getProperty("user.dir")+"//Driver//chromedriver.exe";
+	System.setProperty("webdriver.chrome.driver", path);
+	System.out.println(path);
+	//Initialize the Chrome Driver
+	WebDriver driver=new ChromeDriver();
+	
+	//Launch the application on which you want to perform testing
+	//driver.get("https://opensource-demo.orangehrmlive.com/");
+	
+	//Second method to launch Application on Browser
+	driver.navigate().to("https://opensource-demo.orangehrmlive.com/");
+//String text=driver.findElement(By.className("form-hint")).getText();
+//System.out.println("Text is"+text);
+	Thred.sleep(5000);
+	driver.findElement(By.className("form-hint")).sendKeys("admin");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ByClass oo=new ByClass();
+		oo.CheckbyClass();
+
+	}
+
+}

@@ -1,0 +1,41 @@
+package com.OrangeLive.TestCases;
+
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import com.TestBase.basedemo;
+import com.orangehrm.pages.LoginPage;
+
+public class LoginTest extends basedemo{
+	LoginPage log;
+	String Title,Exp_Title;
+public LoginTest()
+{
+	super();
+}
+@BeforeSuite
+public void LaunchUrl()
+{
+	initialize();
+	log=new LoginPage();
+}
+@Test
+public void Check()
+{
+	Title=log.CheckTitle();
+	Assert.assertEquals(Title, "Welcome page");
+}
+@Test
+public void CheckLogin()
+{
+	log.Login();
+}
+@Test
+public void CheckForget()
+{
+	log.ForgetClick();
+}
+}
+
